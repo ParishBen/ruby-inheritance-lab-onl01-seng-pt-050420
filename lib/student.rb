@@ -8,4 +8,6 @@ def knowledge
   @knowledge
 end
 def learn
+  @knowledge << "things"
+end
 end
