@@ -8,6 +8,6 @@ def knowledge
   @knowledge
 end
 def learn(string)
-  @knowledge << "things"
-end
+  @knowledge << string
+ end
 end
