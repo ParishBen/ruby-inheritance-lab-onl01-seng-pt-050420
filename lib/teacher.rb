@@ -1,4 +1,4 @@
-require './lib/user.rb'
+require '../lib/user.rb'
 class Teacher < User
 attr_accessor :first_name, :last_name
  
