@@ -2,9 +2,9 @@ require './lib/user.rb'
 class Student < User
 attr_accessor :first_name, :last_name, :knowledge
 def initialize
-  @knowledge
+  @knowledge= []
 end
-@knowledge= []
+
 def knowledge
   @knowledge
 end
