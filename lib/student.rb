@@ -7,7 +7,7 @@ end
 def knowledge
   @knowledge
 end
-def learn
+def learn(string)
   @knowledge << "things"
 end
 end
